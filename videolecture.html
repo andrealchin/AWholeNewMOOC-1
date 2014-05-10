@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Video Player HTML5</title>
+<link href="VideoPlayerstyle.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+ 
+<script src="../../HCDE Capstone/HTML/CSS/HTML _ CSS/js/video.js"></script>
+
+</head>
+
+<body>
+  
+  <div class="rounded-corners frame" >
+
+      	<div id="video">
+       	<div style="background:#FFF;">
+            <video id="myVideo" controls preload="auto" poster="../../HCDE Capstone/HTML/CSS/HTML _ CSS/images/poster.png" width="750">
+          <source src="../../HCDE Capstone/HTML/CSS/HTML _ CSS/video/mega.mp4" type="video/mp4" />
+          <source src="../../HCDE Capstone/HTML/CSS/HTML _ CSS/mega.webm" type="video/webM" />
+          <source src="../../HCDE Capstone/HTML/CSS/HTML _ CSS/mega.ogv" type="video/ogg" />
+          <p>Your browser does not support the video tag.</p>
+        </video>
+                </div> 
+         </div>
+    
+    <div class="pBardiv">
+      	<div id="progressbar">
+      
+       <div class="progress rounded-corners">
+			<span class="bufferBar"></span>
+			<div class="timeBar rounded-corners"></div>
+		</div>
+        
+        </div>
+    </div>
+        
+        <div  class="totaltime">
+         <div class="time">
+				<span class="current"></span> / 
+				<span class="duration"></span> 
+			</div>
+         
+         </div>
+         
+        
+    <div class="videoconroller">
+    	  <div style="padding-top:30px;">
+               <div class="speaker" title="Mute/Unmute sound"></div>
+           	   <div class="speakerindicator"></div>
+                <div class="divider"></div>
+                <div class="btnBck"></div>
+                <div class="btnPlay"></div>
+                <div class="btnFwd"></div>
+ 			   <div class="divider"></div>
+            
+             <div class="fullscreen"></div>
+             <div id="playing"></div>
+             <div id="playingNow"></div>
+        </div>
+ </div>
+  
+  </div>
+  
+  </div>
+  <!-- end .container --></div>
+</body>
+</html>
